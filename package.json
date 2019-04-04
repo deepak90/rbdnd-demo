@@ -1,0 +1,20 @@
+{
+  "name": "rbdnd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdx-deck": "^2.0.6",
+    "mdx-deck-code-surfer": "^0.5.5",
+    "raw-loader": "^2.0.0",
+    "react": "^16.8.6",
+    "react-beautiful-dnd": "^10.1.1",
+    "react-syntax-highlighter": "^10.2.1"
+  }
+}

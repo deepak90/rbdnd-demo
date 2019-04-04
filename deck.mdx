@@ -1,0 +1,89 @@
+import { Head } from '@mdx-deck/components'
+
+import { Split } from 'mdx-deck/layouts'
+
+
+<Head>
+  <title>DDC Hackers!</title>
+</Head>
+
+# React Beautiful Drag and Drop
+
+---
+
+## Draggable Demo
+
+#### Note: Order is not preserved after dragging as onDragEnd method is not implemented
+
+---
+
+import DraggableSnapshot from './code/DraggableSnapshot';
+
+##### snapshot.isDragging
+
+<DraggableSnapshot />
+
+---
+
+import DragHandle from './code/DragHandle';
+
+##### Drag Handles
+
+<DragHandle />
+
+---
+
+import DragDisabled from './code/DragDisabled';
+
+##### Drag Disabled
+###### 'item 0' cannot be dragged
+
+<DragDisabled />
+
+---
+
+## Droppable
+
+---
+
+import DroppableSnapshot from './code/DroppableSnapshot';
+
+##### snapshot.isDraggingOver
+
+<DroppableSnapshot />
+
+---
+
+import VerticalList from './code/VerticalList';
+
+##### Vertical Lists
+
+<VerticalList />
+
+---
+
+import HorizontalList from './code/HorizontalList';
+
+##### Horizontal Lists
+
+<HorizontalList />
+
+---
+
+## DragDropContext
+
+---
+
+import ResultObject from './code/ResultObject';
+
+### Look at the console after dragging and dropping an item
+<div style={{display: 'flex', justifyContent: 'space-around'}}>
+  <ResultObject/>
+</div>
+
+
+
+
+
+
+
